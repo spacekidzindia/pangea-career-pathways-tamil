@@ -59,7 +59,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-br from-slate-900 via-purple-900/20 to-blue-900/20 text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-30">
-        <div className="w-full h-full" style={{backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Ccircle cx='7' cy='7' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")"}}></div>
+        <div className="w-full h-full bg-gradient-to-br from-purple-900/10 to-blue-900/10"></div>
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
